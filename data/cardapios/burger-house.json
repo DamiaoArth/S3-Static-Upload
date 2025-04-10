@@ -1,0 +1,207 @@
+{
+  "categorias": [
+    {
+      "id": "entradas",
+      "nome": "Entradas",
+      "icone": "fas fa-cheese",
+      "itens": [
+        {
+          "id": "batata-frita",
+          "nome": "Batatas Fritas",
+          "descricao": "Porção grande de batatas fritas crocantes com sal e ervas.",
+          "preco": 24.90,
+          "imagem": "img/pastel.jpg",
+          "destaque": true
+        },
+        {
+          "id": "onion-rings",
+          "nome": "Onion Rings",
+          "descricao": "Anéis de cebola empanados e fritos, servidos com molho barbecue.",
+          "preco": 26.90,
+          "imagem": "img/pao-de-queijo.jpg",
+          "destaque": false
+        },
+        {
+          "id": "chicken-nuggets",
+          "nome": "Chicken Nuggets",
+          "descricao": "Porção de nuggets de frango crocantes (10 unidades).",
+          "preco": 28.90,
+          "imagem": "img/brigadeiro.jpg",
+          "destaque": false
+        },
+        {
+          "id": "nachos",
+          "nome": "Nachos com Guacamole",
+          "descricao": "Nachos com queijo cheddar derretido, guacamole, pico de gallo e creme azedo.",
+          "preco": 32.90,
+          "imagem": "img/nachos.jpg",
+          "destaque": true
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "nome": "Hambúrgueres",
+      "icone": "fas fa-hamburger",
+      "itens": [
+        {
+          "id": "classic-burger",
+          "nome": "Burrito de Carne",
+          "descricao": "Hambúrguer de 180g, queijo cheddar, alface, tomate, cebola e molho especial.",
+          "preco": 36.90,
+          "imagem": "img/burrito-carne.jpg",
+          "destaque": true
+        },
+        {
+          "id": "cheese-bacon",
+          "nome": "Burrito de Frango",
+          "descricao": "Hambúrguer de 180g, queijo cheddar, bacon crocante, alface, tomate e maionese defumada.",
+          "preco": 42.90,
+          "imagem": "img/burrito-frango.jpg",
+          "destaque": true
+        },
+        {
+          "id": "mushroom-burger",
+          "nome": "Burrito Vegetariano",
+          "descricao": "Hambúrguer de 180g, queijo suíço, cogumelos salteados, rúcula e maionese de alho.",
+          "preco": 44.90,
+          "imagem": "img/burrito-vegetariano.jpg",
+          "destaque": false
+        },
+        {
+          "id": "bbq-burger",
+          "nome": "Chimichanga",
+          "descricao": "Hambúrguer de 180g, queijo cheddar, bacon, cebola crispy, molho barbecue e maionese.",
+          "preco": 43.90,
+          "imagem": "img/chimichanga.jpg",
+          "destaque": false
+        },
+        {
+          "id": "veggie-burger",
+          "nome": "Guacamole Especial",
+          "descricao": "Hambúrguer vegetal, queijo, alface, tomate, cebola roxa e maionese vegana.",
+          "preco": 38.90,
+          "imagem": "img/guacamole.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "acompanhamentos",
+      "nome": "Acompanhamentos",
+      "icone": "fas fa-utensils",
+      "itens": [
+        {
+          "id": "batata-rustica",
+          "nome": "Batatas Fritas Especiais",
+          "descricao": "Batatas rústicas temperadas com alecrim e parmesão.",
+          "preco": 22.90,
+          "imagem": "img/pastel.jpg",
+          "destaque": false
+        },
+        {
+          "id": "mac-cheese",
+          "nome": "Queso Fundido",
+          "descricao": "Macarrão com molho cremoso de queijos e finalizado com parmesão gratinado.",
+          "preco": 26.90,
+          "imagem": "img/queso-fundido.jpg",
+          "destaque": true
+        },
+        {
+          "id": "salada-caesar",
+          "nome": "Vatapá",
+          "descricao": "Mix de folhas, croutons, lascas de parmesão e molho caesar.",
+          "preco": 24.90,
+          "imagem": "img/vatapa.jpg",
+          "destaque": false
+        },
+        {
+          "id": "coleslaw",
+          "nome": "Feijoada",
+          "descricao": "Salada de repolho e cenoura com molho cremoso.",
+          "preco": 18.90,
+          "imagem": "img/feijoada.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "sobremesas",
+      "nome": "Sobremesas",
+      "icone": "fas fa-ice-cream",
+      "itens": [
+        {
+          "id": "milkshake",
+          "nome": "Sorvete de Cajeta",
+          "descricao": "Milkshake cremoso. Sabores: baunilha, chocolate, morango ou caramelo.",
+          "preco": 22.90,
+          "imagem": "img/sorvete-cajeta.jpg",
+          "destaque": true
+        },
+        {
+          "id": "brownie",
+          "nome": "Pudim",
+          "descricao": "Brownie quente com sorvete de baunilha e calda de chocolate.",
+          "preco": 26.90,
+          "imagem": "img/pudim.jpg",
+          "destaque": false
+        },
+        {
+          "id": "apple-pie",
+          "nome": "Tiramisu",
+          "descricao": "Torta de maçã quentinha com sorvete de baunilha.",
+          "preco": 24.90,
+          "imagem": "img/tiramisu.jpg",
+          "destaque": false
+        },
+        {
+          "id": "cheesecake",
+          "nome": "Flan",
+          "descricao": "Cheesecake com calda de frutas vermelhas.",
+          "preco": 23.90,
+          "imagem": "img/flan.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nome": "Bebidas",
+      "icone": "fas fa-glass-whiskey",
+      "itens": [
+        {
+          "id": "refrigerante",
+          "nome": "Refrigerante",
+          "descricao": "Lata de refrigerante (350ml). Opções: Coca-Cola, Guaraná ou Sprite.",
+          "preco": 7.90,
+          "imagem": "img/refrigerante.jpg",
+          "destaque": false
+        },
+        {
+          "id": "suco",
+          "nome": "Suco Natural",
+          "descricao": "Suco de frutas frescas. Opções: laranja, limão, abacaxi ou maracujá.",
+          "preco": 12.90,
+          "imagem": "img/suco.jpg",
+          "destaque": false
+        },
+        {
+          "id": "cerveja",
+          "nome": "Cerveza",
+          "descricao": "Garrafa de cerveja (600ml). Opções: Heineken, Stella Artois ou Corona.",
+          "preco": 18.90,
+          "imagem": "img/cerveza.jpg",
+          "destaque": true
+        },
+        {
+          "id": "agua",
+          "nome": "Água Mineral",
+          "descricao": "Água mineral com ou sem gás (500ml).",
+          "preco": 6.90,
+          "imagem": "img/agua.jpg",
+          "destaque": false
+        }
+      ]
+    }
+  ]
+}

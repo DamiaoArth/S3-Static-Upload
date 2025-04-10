@@ -1,0 +1,185 @@
+/* Estilos Gerais */
+:root {
+    --primary-color: #ff6b35;
+    --secondary-color: #2e4057;
+    --accent-color: #f7c59f;
+    --light-color: #efefef;
+    --dark-color: #222831;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, var(--secondary-color), var(--primary-color)) !important;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.restaurant-card .card-img-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.restaurant-card .card-title, 
+.restaurant-card .card-text {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.restaurant-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: #e55a2b;
+    border-color: #e55a2b;
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Seção Como Funciona */
+#como-funciona .fas {
+    color: var(--primary-color);
+}
+
+#como-funciona .bg-light {
+    transition: transform 0.3s ease;
+}
+
+#como-funciona .bg-light:hover {
+    transform: translateY(-5px);
+}
+
+/* Menu de Categorias */
+.menu-category {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+    padding: 10px 15px;
+}
+
+.menu-category.active {
+    border-left: 3px solid var(--primary-color);
+    background-color: rgba(255, 107, 53, 0.1);
+}
+
+.menu-category:hover {
+    background-color: rgba(255, 107, 53, 0.05);
+}
+
+/* Item do Cardápio */
+.menu-item {
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.menu-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.menu-item-price {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, var(--secondary-color), var(--primary-color)) !important;
+}
+
+footer .social-links a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+footer .social-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 180px;
+    }
+    
+    .menu-item-img {
+        height: 120px;
+    }
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+/* QR Code */
+.qr-code-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Placeholder para carregamento */
+.placeholder-glow .placeholder {
+    background-color: rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,169 @@
+{
+  "restauranteId": "sabor-brasileiro",
+  "categorias": [
+    {
+      "id": "entradas",
+      "nome": "Entradas",
+      "icone": "fas fa-cheese",
+      "itens": [
+        {
+          "id": "pao-de-queijo",
+          "nome": "Pão de Queijo",
+          "descricao": "Porção com 12 unidades de pão de queijo mineiro, quentinho e macio.",
+          "preco": 18.90,
+          "imagem": "img/pao-de-queijo.jpg",
+          "destaque": true
+        },
+        {
+          "id": "coxinha",
+          "nome": "Coxinha de Frango",
+          "descricao": "Porção com 8 unidades de coxinha de frango com catupiry.",
+          "preco": 22.90,
+          "imagem": "img/pastel.jpg",
+          "destaque": false
+        },
+        {
+          "id": "bolinho-de-bacalhau",
+          "nome": "Bolinho de Bacalhau",
+          "descricao": "Porção com 10 unidades de bolinho de bacalhau tradicional.",
+          "preco": 32.90,
+          "imagem": "img/pao-de-queijo.jpg",
+          "destaque": false
+        },
+        {
+          "id": "pastel",
+          "nome": "Pastel de Carne",
+          "descricao": "Porção com 6 unidades de pastel de carne com azeitona.",
+          "preco": 24.90,
+          "imagem": "img/pastel.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "principais",
+      "nome": "Pratos Principais",
+      "icone": "fas fa-utensils",
+      "itens": [
+        {
+          "id": "feijoada",
+          "nome": "Feijoada Completa",
+          "descricao": "Tradicional feijoada com arroz, couve, farofa, laranja e torresmo. Serve 2 pessoas.",
+          "preco": 89.90,
+          "imagem": "img/feijoada.jpg",
+          "destaque": true
+        },
+        {
+          "id": "moqueca",
+          "nome": "Moqueca de Peixe",
+          "descricao": "Moqueca de peixe branco com camarões, arroz e pirão. Serve 2 pessoas.",
+          "preco": 98.90,
+          "imagem": "img/vatapa.jpg",
+          "destaque": true
+        },
+        {
+          "id": "picanha",
+          "nome": "Picanha na Brasa",
+          "descricao": "Picanha grelhada com vinagrete, farofa, arroz e batata frita. Serve 2 pessoas.",
+          "preco": 109.90,
+          "imagem": "img/picanha.jpg",
+          "destaque": false
+        },
+        {
+          "id": "baiao",
+          "nome": "Baião de Dois",
+          "descricao": "Baião de dois com carne de sol, queijo coalho, paçoca de carne e vinagrete.",
+          "preco": 79.90,
+          "imagem": "img/baiao.jpg",
+          "destaque": false
+        },
+        {
+          "id": "vatapa",
+          "nome": "Vatapá de Camarão",
+          "descricao": "Vatapá cremoso com camarões, arroz e farofa. Serve 1 pessoa.",
+          "preco": 68.90,
+          "imagem": "img/vatapa.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "sobremesas",
+      "nome": "Sobremesas",
+      "icone": "fas fa-ice-cream",
+      "itens": [
+        {
+          "id": "pudim",
+          "nome": "Pudim de Leite",
+          "descricao": "Tradicional pudim de leite condensado com calda de caramelo.",
+          "preco": 15.90,
+          "imagem": "img/pudim.jpg",
+          "destaque": true
+        },
+        {
+          "id": "acai",
+          "nome": "Açaí na Tigela",
+          "descricao": "Açaí cremoso com granola, banana e leite condensado.",
+          "preco": 22.90,
+          "imagem": "img/brigadeiro.jpg",
+          "destaque": false
+        },
+        {
+          "id": "quindim",
+          "nome": "Quindim",
+          "descricao": "Tradicional quindim de coco com gema de ovo.",
+          "preco": 12.90,
+          "imagem": "img/quindim.jpg",
+          "destaque": false
+        },
+        {
+          "id": "brigadeiro",
+          "nome": "Brigadeiro Gourmet",
+          "descricao": "Porção com 6 unidades de brigadeiro gourmet.",
+          "preco": 18.90,
+          "imagem": "img/brigadeiro.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nome": "Bebidas",
+      "icone": "fas fa-glass-cheers",
+      "itens": [
+        {
+          "id": "caipirinha",
+          "nome": "Caipirinha",
+          "descricao": "Tradicional caipirinha de limão com cachaça artesanal.",
+          "preco": 22.90,
+          "imagem": "img/caipirinha.jpg",
+          "destaque": true
+        },
+        {
+          "id": "suco",
+          "nome": "Suco Natural",
+          "descricao": "Suco de frutas frescas. Opções: laranja, abacaxi, maracujá ou limão.",
+          "preco": 12.90,
+          "imagem": "img/suco.jpg",
+          "destaque": false
+        },
+        {
+          "id": "agua-de-coco",
+          "nome": "Água de Coco",
+          "descricao": "Água de coco natural e gelada.",
+          "preco": 9.90,
+          "imagem": "img/agua.jpg",
+          "destaque": false
+        },
+        {
+          "id": "refrigerante",
+          "nome": "Refrigerante",
+          "descricao": "Lata de refrigerante (350ml). Opções: Coca-Cola, Guaraná ou Sprite.",
+          "preco": 7.90,
+          "imagem": "img/refrigerante.jpg",
+          "destaque": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "restauranteId": "el-mariachi",
+  "categorias": [
+    {
+      "id": "entradas",
+      "nome": "Entradas",
+      "icone": "fas fa-pepper-hot",
+      "itens": [
+        {
+          "id": "guacamole",
+          "nome": "Guacamole",
+          "descricao": "Tradicional guacamole mexicano preparado na hora com abacate, tomate, cebola, coentro e limão. Servido com nachos.",
+          "preco": 38.90,
+          "imagem": "img/guacamole.jpg",
+          "destaque": true
+        },
+        {
+          "id": "nachos",
+          "nome": "Nachos Supremos",
+          "descricao": "Nachos cobertos com queijo derretido, carne moída temperada, pico de gallo, guacamole e creme azedo.",
+          "preco": 42.90,
+          "imagem": "img/nachos.jpg",
+          "destaque": false
+        },
+        {
+          "id": "queso-fundido",
+          "nome": "Queso Fundido",
+          "descricao": "Queijo derretido com chorizo mexicano, servido com tortillas de milho.",
+          "preco": 36.90,
+          "imagem": "img/queso-fundido.jpg",
+          "destaque": false
+        },
+        {
+          "id": "ceviche",
+          "nome": "Ceviche de Camarão",
+          "descricao": "Camarões marinados em suco de limão com tomate, cebola roxa, coentro e pimenta.",
+          "preco": 46.90,
+          "imagem": "img/ceviche.jpg",
+          "destaque": true
+        }
+      ]
+    },
+    {
+      "id": "tacos",
+      "nome": "Tacos",
+      "icone": "fas fa-utensils",
+      "itens": [
+        {
+          "id": "tacos-pastor",
+          "nome": "Tacos al Pastor",
+          "descricao": "Três tacos de carne de porco marinada em achiote, servidos com abacaxi, cebola e coentro (3 unidades).",
+          "preco": 42.90,
+          "imagem": "img/tacos-pastor.jpg",
+          "destaque": true
+        },
+        {
+          "id": "tacos-carnitas",
+          "nome": "Tacos de Carnitas",
+          "descricao": "Três tacos de carne de porco confitada, servidos com cebola, coentro e limão (3 unidades).",
+          "preco": 42.90,
+          "imagem": "img/tacos-carnitas.jpg",
+          "destaque": false
+        },
+        {
+          "id": "tacos-pescado",
+          "nome": "Tacos de Pescado",
+          "descricao": "Três tacos de peixe empanado, servidos com repolho, molho de chipotle e limão (3 unidades).",
+          "preco": 46.90,
+          "imagem": "img/tacos-pescado.jpg",
+          "destaque": false
+        },
+        {
+          "id": "tacos-camarones",
+          "nome": "Tacos de Camarón",
+          "descricao": "Três tacos de camarão grelhado, servidos com abacate, repolho e molho de chipotle (3 unidades).",
+          "preco": 48.90,
+          "imagem": "img/tacos-camarones.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "especialidades",
+      "nome": "Especialidades",
+      "icone": "fas fa-fire",
+      "itens": [
+        {
+          "id": "enchiladas",
+          "nome": "Enchiladas Suizas",
+          "descricao": "Três tortillas recheadas com frango, cobertas com molho verde, queijo e creme azedo. Acompanha arroz mexicano.",
+          "preco": 52.90,
+          "imagem": "img/enchiladas.jpg",
+          "destaque": true
+        },
+        {
+          "id": "chiles-rellenos",
+          "nome": "Chiles Rellenos",
+          "descricao": "Dois pimentões poblano recheados com queijo, empanados e fritos, cobertos com molho de tomate.",
+          "preco": 56.90,
+          "imagem": "img/chiles-rellenos.jpg",
+          "destaque": false
+        },
+        {
+          "id": "fajitas",
+          "nome": "Fajitas",
+          "descricao": "Tiras de carne ou frango grelhadas com pimentões e cebola, servidas com tortillas, guacamole, pico de gallo e creme azedo.",
+          "preco": 64.90,
+          "imagem": "img/tacos-pastor.jpg",
+          "destaque": true
+        },
+        {
+          "id": "mole-poblano",
+          "nome": "Mole Poblano",
+          "descricao": "Frango cozido coberto com tradicional molho mole, servido com arroz mexicano e tortillas.",
+          "preco": 58.90,
+          "imagem": "img/mole-poblano.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "burritos",
+      "nome": "Burritos",
+      "icone": "fas fa-hamburger",
+      "itens": [
+        {
+          "id": "burrito-carne",
+          "nome": "Burrito de Carne",
+          "descricao": "Grande tortilla de trigo recheada com carne, feijão, arroz, queijo, guacamole e creme azedo.",
+          "preco": 46.90,
+          "imagem": "img/burrito-carne.jpg",
+          "destaque": true
+        },
+        {
+          "id": "burrito-frango",
+          "nome": "Burrito de Frango",
+          "descricao": "Grande tortilla de trigo recheada com frango, feijão, arroz, queijo, guacamole e creme azedo.",
+          "preco": 44.90,
+          "imagem": "img/burrito-frango.jpg",
+          "destaque": false
+        },
+        {
+          "id": "burrito-vegetariano",
+          "nome": "Burrito Vegetariano",
+          "descricao": "Grande tortilla de trigo recheada com feijão, arroz, queijo, legumes grelhados, guacamole e creme azedo.",
+          "preco": 42.90,
+          "imagem": "img/burrito-vegetariano.jpg",
+          "destaque": false
+        },
+        {
+          "id": "chimichanga",
+          "nome": "Chimichanga",
+          "descricao": "Burrito frito recheado com carne ou frango, coberto com molho de queijo e servido com guacamole e creme azedo.",
+          "preco": 48.90,
+          "imagem": "img/chimichanga.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "sobremesas",
+      "nome": "Sobremesas",
+      "icone": "fas fa-ice-cream",
+      "itens": [
+        {
+          "id": "tres-leches",
+          "nome": "Sobremesa Especial",
+          "descricao": "Tradicional bolo mexicano embebido em três tipos de leite, coberto com chantilly.",
+          "preco": 28.90,
+          "imagem": "img/pudim.jpg",
+          "destaque": true
+        },
+        {
+          "id": "churros",
+          "nome": "Churros Mexicanos",
+          "descricao": "Churros crocantes com açúcar e canela, servidos com doce de leite ou chocolate (4 unidades).",
+          "preco": 24.90,
+          "imagem": "img/sorvete-cajeta.jpg",
+          "destaque": false
+        },
+        {
+          "id": "flan",
+          "nome": "Flan de Caramelo",
+          "descricao": "Tradicional flan mexicano com calda de caramelo.",
+          "preco": 26.90,
+          "imagem": "img/flan.jpg",
+          "destaque": false
+        },
+        {
+          "id": "sorvete",
+          "nome": "Sorvete de Cajeta",
+          "descricao": "Sorvete de doce de leite mexicano com nozes caramelizadas.",
+          "preco": 22.90,
+          "imagem": "img/sorvete-cajeta.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nome": "Bebidas",
+      "icone": "fas fa-glass-cheers",
+      "itens": [
+        {
+          "id": "margarita",
+          "nome": "Margarita",
+          "descricao": "Clássica margarita com tequila, licor de laranja e suco de limão. Opções: tradicional, morango ou tamarindo.",
+          "preco": 32.90,
+          "imagem": "img/margarita.jpg",
+          "destaque": true
+        },
+        {
+          "id": "michelada",
+          "nome": "Bebida Especial Mexicana",
+          "descricao": "Cerveja mexicana com suco de limão, molho inglês, molho de pimenta e sal.",
+          "preco": 26.90,
+          "imagem": "img/agua-fresca.jpg",
+          "destaque": false
+        },
+        {
+          "id": "agua-fresca",
+          "nome": "Água Fresca",
+          "descricao": "Bebida refrescante típica mexicana. Sabores: jamaica (hibisco), horchata (arroz com canela) ou tamarindo.",
+          "preco": 18.90,
+          "imagem": "img/agua-fresca.jpg",
+          "destaque": false
+        },
+        {
+          "id": "cerveza",
+          "nome": "Cerveja Mexicana",
+          "descricao": "Garrafa de cerveja mexicana. Opções: Corona, Modelo ou Dos Equis.",
+          "preco": 22.90,
+          "imagem": "img/cerveza.jpg",
+          "destaque": false
+        }
+      ]
+    }
+  ]
+}

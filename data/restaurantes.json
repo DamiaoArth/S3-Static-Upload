@@ -1,0 +1,76 @@
+{
+  "restaurantes": [
+    {
+      "id": "sabor-brasileiro",
+      "nome": "Sabor Brasileiro",
+      "tipo": "Comida Brasileira",
+      "avaliacao": 4.8,
+      "endereco": "Av. Paulista, 1000, São Paulo - SP",
+      "telefone": "(11) 3456-7890",
+      "horario": "Seg-Sex: 11h às 23h, Sáb-Dom: 11h às 00h",
+      "imagem": "img/restaurante-sabor-brasileiro.jpg",
+      "destaque": true,
+      "descricao": "Experimente o melhor da culinária brasileira em um ambiente aconchegante e familiar."
+    },
+    {
+      "id": "pasta-bella",
+      "nome": "Pasta Bella",
+      "tipo": "Italiana",
+      "avaliacao": 4.6,
+      "endereco": "Rua Augusta, 500, São Paulo - SP",
+      "telefone": "(11) 2345-6789",
+      "horario": "Todos os dias: 12h às 23h",
+      "imagem": "img/restaurante-pasta-bella.jpg",
+      "destaque": false,
+      "descricao": "Massas artesanais e pizzas autênticas com ingredientes importados da Itália."
+    },
+    {
+      "id": "tokyo-sushi",
+      "nome": "Tokyo Sushi",
+      "tipo": "Japonesa",
+      "avaliacao": 4.7,
+      "endereco": "Rua Liberdade, 200, São Paulo - SP",
+      "telefone": "(11) 3456-7891",
+      "horario": "Ter-Dom: 18h às 23h",
+      "imagem": "img/restaurante-tokyo-sushi.jpg",
+      "destaque": true,
+      "descricao": "O melhor da culinária japonesa com ingredientes frescos e técnicas tradicionais."
+    },
+    {
+      "id": "el-mariachi",
+      "nome": "El Mariachi",
+      "tipo": "Mexicana",
+      "avaliacao": 4.5,
+      "endereco": "Rua dos Pinheiros, 300, São Paulo - SP",
+      "telefone": "(11) 3456-7892",
+      "horario": "Ter-Dom: 18h às 00h",
+      "imagem": "img/restaurante-el-mariachi.jpg",
+      "destaque": false,
+      "descricao": "Sabores autênticos do México com ambiente descontraído e música ao vivo."
+    },
+    {
+      "id": "burger-house",
+      "nome": "Burger House",
+      "tipo": "Hamburgueria",
+      "avaliacao": 4.4,
+      "endereco": "Av. Rebouças, 800, São Paulo - SP",
+      "telefone": "(11) 3456-7893",
+      "horario": "Todos os dias: 12h às 00h",
+      "imagem": "img/restaurante-burger-house.jpg",
+      "destaque": false,
+      "descricao": "Hambúrgueres artesanais com ingredientes selecionados e receitas exclusivas."
+    },
+    {
+      "id": "cafe-paris",
+      "nome": "Café Paris",
+      "tipo": "Francesa",
+      "avaliacao": 4.9,
+      "endereco": "Rua Oscar Freire, 400, São Paulo - SP",
+      "telefone": "(11) 3456-7894",
+      "horario": "Seg-Sáb: 8h às 22h, Dom: 9h às 20h",
+      "imagem": "img/restaurante-cafe-paris.jpg",
+      "destaque": true,
+      "descricao": "Atmosfera elegante com pratos clássicos da culinária francesa e patisserie artesanal."
+    }
+  ]
+}

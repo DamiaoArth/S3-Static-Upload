@@ -1,0 +1,208 @@
+{
+  "restauranteId": "pasta-bella",
+  "categorias": [
+    {
+      "id": "antipasti",
+      "nome": "Antipasti",
+      "icone": "fas fa-cheese",
+      "itens": [
+        {
+          "id": "bruschetta",
+          "nome": "Bruschetta Tradicional",
+          "descricao": "Fatias de pão italiano com tomate, manjericão, alho e azeite extra virgem.",
+          "preco": 28.90,
+          "imagem": "img/bruschetta.jpg",
+          "destaque": true
+        },
+        {
+          "id": "carpaccio",
+          "nome": "Carpaccio di Manzo",
+          "descricao": "Finas fatias de filé mignon com alcaparras, parmesão e molho de mostarda e mel.",
+          "preco": 42.90,
+          "imagem": "img/carpaccio.jpg",
+          "destaque": false
+        },
+        {
+          "id": "burrata",
+          "nome": "Burrata com Tomate",
+          "descricao": "Burrata fresca com tomates cereja, rúcula e azeite de manjericão.",
+          "preco": 48.90,
+          "imagem": "img/burrata.jpg",
+          "destaque": true
+        },
+        {
+          "id": "arancini",
+          "nome": "Arancini",
+          "descricao": "Bolinhos de risoto recheados com queijo e presunto, empanados e fritos.",
+          "preco": 36.90,
+          "imagem": "img/arancini.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "pasta",
+      "nome": "Pasta",
+      "icone": "fas fa-utensils",
+      "itens": [
+        {
+          "id": "carbonara",
+          "nome": "Spaghetti alla Carbonara",
+          "descricao": "Massa fresca com molho cremoso de ovos, queijo pecorino, pancetta e pimenta preta.",
+          "preco": 58.90,
+          "imagem": "img/carbonara.jpg",
+          "destaque": true
+        },
+        {
+          "id": "bolognese",
+          "nome": "Tagliatelle al Ragù",
+          "descricao": "Massa fresca com autêntico molho bolonhês preparado lentamente.",
+          "preco": 54.90,
+          "imagem": "img/bolognese.jpg",
+          "destaque": false
+        },
+        {
+          "id": "lasagna",
+          "nome": "Lasagna alla Bolognese",
+          "descricao": "Camadas de massa fresca, molho bolonhês, bechamel e queijo parmesão.",
+          "preco": 62.90,
+          "imagem": "img/lasagna.jpg",
+          "destaque": false
+        },
+        {
+          "id": "ravioli",
+          "nome": "Penne ao Molho Especial",
+          "descricao": "Ravioli recheado com ricota e espinafre ao molho de manteiga e sálvia.",
+          "preco": 64.90,
+          "imagem": "img/carbonara.jpg",
+          "destaque": true
+        },
+        {
+          "id": "gnocchi",
+          "nome": "Gnocchi al Pesto",
+          "descricao": "Nhoque de batata caseiro ao molho pesto de manjericão fresco.",
+          "preco": 56.90,
+          "imagem": "img/gnocchi.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "pizzas",
+      "nome": "Pizzas",
+      "icone": "fas fa-pizza-slice",
+      "itens": [
+        {
+          "id": "margherita",
+          "nome": "Pizza Margherita",
+          "descricao": "Molho de tomate, mussarela de búfala, manjericão fresco e azeite extra virgem.",
+          "preco": 52.90,
+          "imagem": "img/margherita.jpg",
+          "destaque": true
+        },
+        {
+          "id": "prosciutto",
+          "nome": "Pizza Especial da Casa",
+          "descricao": "Molho de tomate, mussarela, presunto de Parma, rúcula fresca e lascas de parmesão.",
+          "preco": 68.90,
+          "imagem": "img/margherita.jpg",
+          "destaque": false
+        },
+        {
+          "id": "quattro-formaggi",
+          "nome": "Pizza Quattro Formaggi",
+          "descricao": "Molho de tomate, mussarela, gorgonzola, parmesão e provolone.",
+          "preco": 64.90,
+          "imagem": "img/quattro-formaggi.jpg",
+          "destaque": false
+        },
+        {
+          "id": "diavola",
+          "nome": "Pizza Diavola",
+          "descricao": "Molho de tomate, mussarela, salame picante, azeitonas pretas e pimenta calabresa.",
+          "preco": 62.90,
+          "imagem": "img/diavola.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "dolci",
+      "nome": "Dolci",
+      "icone": "fas fa-ice-cream",
+      "itens": [
+        {
+          "id": "tiramisu",
+          "nome": "Tiramisù",
+          "descricao": "Clássico tiramisù italiano com biscoitos champagne, café, mascarpone e cacau.",
+          "preco": 32.90,
+          "imagem": "img/tiramisu.jpg",
+          "destaque": true
+        },
+        {
+          "id": "panna-cotta",
+          "nome": "Panna Cotta",
+          "descricao": "Panna cotta cremosa com calda de frutas vermelhas.",
+          "preco": 28.90,
+          "imagem": "img/panna-cotta.jpg",
+          "destaque": false
+        },
+        {
+          "id": "cannoli",
+          "nome": "Pudim Italiano",
+          "descricao": "Cannoli crocantes recheados com creme de ricota e gotas de chocolate.",
+          "preco": 26.90,
+          "imagem": "img/pudim.jpg",
+          "destaque": false
+        },
+        {
+          "id": "gelato",
+          "nome": "Gelato Artigianale",
+          "descricao": "Sorvete italiano artesanal. Sabores: baunilha, chocolate, pistache ou stracciatella.",
+          "preco": 24.90,
+          "imagem": "img/gelato.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "bevande",
+      "nome": "Bevande",
+      "icone": "fas fa-wine-glass",
+      "itens": [
+        {
+          "id": "vino-rosso",
+          "nome": "Vinho Tinto Italiano",
+          "descricao": "Taça de vinho tinto italiano. Opções: Chianti Classico ou Montepulciano d'Abruzzo.",
+          "preco": 36.90,
+          "imagem": "img/vino-rosso.jpg",
+          "destaque": true
+        },
+        {
+          "id": "prosecco",
+          "nome": "Prosecco",
+          "descricao": "Taça de Prosecco Extra Dry.",
+          "preco": 32.90,
+          "imagem": "img/prosecco.jpg",
+          "destaque": false
+        },
+        {
+          "id": "acqua",
+          "nome": "Água Mineral",
+          "descricao": "Água mineral com ou sem gás (500ml).",
+          "preco": 8.90,
+          "imagem": "img/acqua.jpg",
+          "destaque": false
+        },
+        {
+          "id": "espresso",
+          "nome": "Espresso",
+          "descricao": "Autêntico café espresso italiano.",
+          "preco": 9.90,
+          "imagem": "img/espresso.jpg",
+          "destaque": false
+        }
+      ]
+    }
+  ]
+}

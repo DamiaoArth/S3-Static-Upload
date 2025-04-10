@@ -1,0 +1,215 @@
+{
+  "categorias": [
+    {
+      "id": "cafe-da-manha",
+      "nome": "Café da Manhã",
+      "icone": "fas fa-coffee",
+      "itens": [
+        {
+          "id": "croissant",
+          "nome": "Bruschetta",
+          "descricao": "Croissant tradicional francês, feito na casa, servido com manteiga.",
+          "preco": 12.90,
+          "imagem": "img/bruschetta.jpg",
+          "destaque": true
+        },
+        {
+          "id": "pain-au-chocolat",
+          "nome": "Pão de Queijo",
+          "descricao": "Massa folhada com recheio de chocolate belga.",
+          "preco": 14.90,
+          "imagem": "img/pao-de-queijo.jpg",
+          "destaque": false
+        },
+        {
+          "id": "petit-dejeuner",
+          "nome": "Pastel",
+          "descricao": "Café, suco de laranja, croissant, geleia e manteiga.",
+          "preco": 32.90,
+          "imagem": "img/pastel.jpg",
+          "destaque": true
+        },
+        {
+          "id": "omelette",
+          "nome": "Carbonara",
+          "descricao": "Omelete com queijo gruyère, cogumelos e ervas finas, servido com torradas.",
+          "preco": 36.90,
+          "imagem": "img/carbonara.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "entradas",
+      "nome": "Entradas",
+      "icone": "fas fa-cheese",
+      "itens": [
+        {
+          "id": "soupe-a-loignon",
+          "nome": "Ramen",
+          "descricao": "Tradicional sopa de cebola gratinada com queijo gruyère e croutons.",
+          "preco": 38.90,
+          "imagem": "img/ramen.jpg",
+          "destaque": true
+        },
+        {
+          "id": "escargots",
+          "nome": "Sunomono",
+          "descricao": "Caracóis preparados com manteiga de alho e ervas (6 unidades).",
+          "preco": 62.90,
+          "imagem": "img/sunomono.jpg",
+          "destaque": false
+        },
+        {
+          "id": "foie-gras",
+          "nome": "Burrata",
+          "descricao": "Terrine de foie gras com compota de frutas e torradas.",
+          "preco": 78.90,
+          "imagem": "img/burrata.jpg",
+          "destaque": true
+        },
+        {
+          "id": "salade-nicoise",
+          "nome": "Vatapá",
+          "descricao": "Salada com atum, tomate, ovos, azeitonas, batatas e feijão verde.",
+          "preco": 42.90,
+          "imagem": "img/vatapa.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "pratos-principais",
+      "nome": "Pratos Principais",
+      "icone": "fas fa-utensils",
+      "itens": [
+        {
+          "id": "coq-au-vin",
+          "nome": "Picanha",
+          "descricao": "Frango cozido lentamente em vinho tinto com cogumelos, bacon e cebolas caramelizadas.",
+          "preco": 86.90,
+          "imagem": "img/picanha.jpg",
+          "destaque": true
+        },
+        {
+          "id": "boeuf-bourguignon",
+          "nome": "Bolognese",
+          "descricao": "Cubos de carne bovina cozidos em vinho tinto com legumes e ervas.",
+          "preco": 92.90,
+          "imagem": "img/bolognese.jpg",
+          "destaque": false
+        },
+        {
+          "id": "ratatouille",
+          "nome": "Lasagna",
+          "descricao": "Clássico prato provençal de legumes assados com ervas.",
+          "preco": 68.90,
+          "imagem": "img/lasagna.jpg",
+          "destaque": false
+        },
+        {
+          "id": "confit-de-canard",
+          "nome": "Yakisoba",
+          "descricao": "Coxa de pato confitada servida com batatas salteadas e salada verde.",
+          "preco": 98.90,
+          "imagem": "img/yakisoba.jpg",
+          "destaque": true
+        },
+        {
+          "id": "steak-frites",
+          "nome": "Teppanyaki",
+          "descricao": "Filé mignon grelhado servido com batatas fritas e molho béarnaise.",
+          "preco": 94.90,
+          "imagem": "img/teppanyaki.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "sobremesas",
+      "nome": "Sobremesas",
+      "icone": "fas fa-cookie",
+      "itens": [
+        {
+          "id": "creme-brulee",
+          "nome": "Pudim",
+          "descricao": "Creme de baunilha com topo caramelizado.",
+          "preco": 32.90,
+          "imagem": "img/pudim.jpg",
+          "destaque": true
+        },
+        {
+          "id": "mousse-au-chocolat",
+          "nome": "Tiramisu",
+          "descricao": "Mousse de chocolate belga com raspas de chocolate.",
+          "preco": 28.90,
+          "imagem": "img/tiramisu.jpg",
+          "destaque": false
+        },
+        {
+          "id": "tarte-tatin",
+          "nome": "Panna Cotta",
+          "descricao": "Torta de maçã caramelizada servida com creme fresco.",
+          "preco": 34.90,
+          "imagem": "img/panna-cotta.jpg",
+          "destaque": false
+        },
+        {
+          "id": "profiteroles",
+          "nome": "Gelato",
+          "descricao": "Pequenos bolos de massa choux recheados com sorvete de baunilha e cobertos com chocolate quente.",
+          "preco": 36.90,
+          "imagem": "img/gelato.jpg",
+          "destaque": true
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nome": "Bebidas",
+      "icone": "fas fa-wine-glass-alt",
+      "itens": [
+        {
+          "id": "cafe-espresso",
+          "nome": "Espresso",
+          "descricao": "Café espresso tradicional.",
+          "preco": 8.90,
+          "imagem": "img/espresso.jpg",
+          "destaque": false
+        },
+        {
+          "id": "vin-rouge",
+          "nome": "Vino Rosso",
+          "descricao": "Taça de vinho tinto francês. Opções: Bordeaux, Bourgogne ou Côtes du Rhône.",
+          "preco": 42.90,
+          "imagem": "img/vino-rosso.jpg",
+          "destaque": true
+        },
+        {
+          "id": "vin-blanc",
+          "nome": "Prosecco",
+          "descricao": "Taça de vinho branco francês. Opções: Chablis, Sancerre ou Alsace.",
+          "preco": 38.90,
+          "imagem": "img/prosecco.jpg",
+          "destaque": false
+        },
+        {
+          "id": "champagne",
+          "nome": "Margarita",
+          "descricao": "Taça de champagne.",
+          "preco": 58.90,
+          "imagem": "img/margarita.jpg",
+          "destaque": true
+        },
+        {
+          "id": "eau-minerale",
+          "nome": "Eau Minérale",
+          "descricao": "Água mineral com ou sem gás (500ml).",
+          "preco": 9.90,
+          "imagem": "img/agua-fresca.jpg",
+          "destaque": false
+        }
+      ]
+    }
+  ]
+}

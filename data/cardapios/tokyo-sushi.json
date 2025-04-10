@@ -1,0 +1,239 @@
+{
+  "restauranteId": "tokyo-sushi",
+  "categorias": [
+    {
+      "id": "entradas",
+      "nome": "Entradas",
+      "icone": "fas fa-leaf",
+      "itens": [
+        {
+          "id": "edamame",
+          "nome": "Entrada Oriental",
+          "descricao": "Vagens de soja cozidas no vapor com sal marinho.",
+          "preco": 22.90,
+          "imagem": "img/pao-de-queijo.jpg",
+          "destaque": false
+        },
+        {
+          "id": "gyoza",
+          "nome": "Guioza Especial",
+          "descricao": "Pastéis japoneses grelhados recheados com carne suína e legumes (6 unidades).",
+          "preco": 32.90,
+          "imagem": "img/tempura.jpg",
+          "destaque": true
+        },
+        {
+          "id": "tempura",
+          "nome": "Tempura Misto",
+          "descricao": "Camarões e legumes empanados na tradicional massa tempura.",
+          "preco": 48.90,
+          "imagem": "img/pao-de-queijo.jpg",
+          "destaque": false
+        },
+        {
+          "id": "sunomono",
+          "nome": "Sunomono",
+          "descricao": "Salada de pepino com gergelim e molho agridoce.",
+          "preco": 24.90,
+          "imagem": "img/sunomono.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "sushi",
+      "nome": "Sushi",
+      "icone": "fas fa-fish",
+      "itens": [
+        {
+          "id": "niguiri-salmao",
+          "nome": "Niguiri de Salmão",
+          "descricao": "Bolinho de arroz coberto com fatia de salmão fresco (6 unidades).",
+          "preco": 38.90,
+          "imagem": "img/philadelphia.jpg",
+          "destaque": true
+        },
+        {
+          "id": "niguiri-atum",
+          "nome": "Niguiri de Atum",
+          "descricao": "Bolinho de arroz coberto com fatia de atum fresco (6 unidades).",
+          "preco": 42.90,
+          "imagem": "img/philadelphia.jpg",
+          "destaque": false
+        },
+        {
+          "id": "niguiri-camarao",
+          "nome": "Niguiri de Camarão",
+          "descricao": "Bolinho de arroz coberto com camarão cozido (6 unidades).",
+          "preco": 40.90,
+          "imagem": "img/philadelphia.jpg",
+          "destaque": false
+        },
+        {
+          "id": "niguiri-especial",
+          "nome": "Niguiri Especial",
+          "descricao": "Mix de niguiris variados com maçarico e molhos especiais (8 unidades).",
+          "preco": 52.90,
+          "imagem": "img/philadelphia.jpg",
+          "destaque": true
+        }
+      ]
+    },
+    {
+      "id": "sashimi",
+      "nome": "Sashimi",
+      "icone": "fas fa-fish",
+      "itens": [
+        {
+          "id": "sashimi-salmao",
+          "nome": "Sashimi de Salmão",
+          "descricao": "Fatias de salmão fresco (10 unidades).",
+          "preco": 46.90,
+          "imagem": "img/philadelphia.jpg",
+          "destaque": true
+        },
+        {
+          "id": "sashimi-atum",
+          "nome": "Sashimi de Atum",
+          "descricao": "Fatias de atum fresco (10 unidades).",
+          "preco": 52.90,
+          "imagem": "img/philadelphia.jpg",
+          "destaque": false
+        },
+        {
+          "id": "sashimi-peixe-branco",
+          "nome": "Sashimi de Peixe Branco",
+          "descricao": "Fatias de peixe branco da estação (10 unidades).",
+          "preco": 44.90,
+          "imagem": "img/philadelphia.jpg",
+          "destaque": false
+        },
+        {
+          "id": "sashimi-misto",
+          "nome": "Sashimi Misto",
+          "descricao": "Mix de sashimis variados (15 unidades).",
+          "preco": 68.90,
+          "imagem": "img/philadelphia.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "uramaki",
+      "nome": "Uramaki",
+      "icone": "fas fa-circle",
+      "itens": [
+        {
+          "id": "california",
+          "nome": "Uramaki Especial",
+          "descricao": "Uramaki com kani, pepino e abacate (8 unidades).",
+          "preco": 32.90,
+          "imagem": "img/philadelphia.jpg",
+          "destaque": false
+        },
+        {
+          "id": "philadelphia",
+          "nome": "Philadelphia Roll",
+          "descricao": "Uramaki com salmão, cream cheese e cebolinha (8 unidades).",
+          "preco": 36.90,
+          "imagem": "img/philadelphia.jpg",
+          "destaque": true
+        },
+        {
+          "id": "skin",
+          "nome": "Skin Roll",
+          "descricao": "Uramaki com pele de salmão grelhada e cebolinha (8 unidades).",
+          "preco": 34.90,
+          "imagem": "img/skin.jpg",
+          "destaque": false
+        },
+        {
+          "id": "dragon",
+          "nome": "Dragon Roll",
+          "descricao": "Uramaki com camarão empanado, coberto com fatias de abacate (8 unidades).",
+          "preco": 48.90,
+          "imagem": "img/dragon.jpg",
+          "destaque": true
+        }
+      ]
+    },
+    {
+      "id": "pratos-quentes",
+      "nome": "Pratos Quentes",
+      "icone": "fas fa-utensils",
+      "itens": [
+        {
+          "id": "yakisoba",
+          "nome": "Yakisoba",
+          "descricao": "Macarrão oriental salteado com legumes e proteína à escolha (carne, frango ou frutos do mar).",
+          "preco": 58.90,
+          "imagem": "img/yakisoba.jpg",
+          "destaque": true
+        },
+        {
+          "id": "teppanyaki",
+          "nome": "Teppanyaki de Salmão",
+          "descricao": "Cubos de salmão grelhados com legumes e molho teriyaki.",
+          "preco": 62.90,
+          "imagem": "img/teppanyaki.jpg",
+          "destaque": false
+        },
+        {
+          "id": "donburi",
+          "nome": "Donburi",
+          "descricao": "Tigela de arroz coberta com proteína à escolha e legumes.",
+          "preco": 54.90,
+          "imagem": "img/donburi.jpg",
+          "destaque": false
+        },
+        {
+          "id": "ramen",
+          "nome": "Ramen",
+          "descricao": "Sopa de macarrão com caldo de miso, carne suína, ovo e legumes.",
+          "preco": 56.90,
+          "imagem": "img/ramen.jpg",
+          "destaque": false
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nome": "Bebidas",
+      "icone": "fas fa-glass-martini-alt",
+      "itens": [
+        {
+          "id": "sake",
+          "nome": "Sake",
+          "descricao": "Dose de sake tradicional japonês.",
+          "preco": 26.90,
+          "imagem": "img/sake.jpg",
+          "destaque": true
+        },
+        {
+          "id": "cha-verde",
+          "nome": "Chá Verde",
+          "descricao": "Bule de chá verde japonês.",
+          "preco": 18.90,
+          "imagem": "img/agua.jpg",
+          "destaque": false
+        },
+        {
+          "id": "refrigerante",
+          "nome": "Refrigerante",
+          "descricao": "Lata de refrigerante (350ml).",
+          "preco": 7.90,
+          "imagem": "img/refrigerante-japones.jpg",
+          "destaque": false
+        },
+        {
+          "id": "agua",
+          "nome": "Água Mineral",
+          "descricao": "Água mineral com ou sem gás (500ml).",
+          "preco": 6.90,
+          "imagem": "img/agua.jpg",
+          "destaque": false
+        }
+      ]
+    }
+  ]
+}
