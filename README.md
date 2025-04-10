@@ -106,109 +106,124 @@ A partir disso, a aplicação ficou **100% online**, hospedada direto no S3, ace
 
 ## Passo 1 - Acessar o Console da AWS
 
-Acesse [https://aws.amazon.com/](https://aws.amazon.com/) e faça login. Se ainda não tem uma conta, crie uma.  
-Dica: ative alertas de gastos para evitar surpresas.
+Uma vez logado no seu console da AWS, procure pelo serviço **S3**:
 
 ![Passo 1](aws_prints/stp1.png)
 
 ---
 
-## Passo 2 - Acessar o Serviço S3
+## Passo 2 – Introdução ou lista de buckets
 
-No console da AWS, procure por **S3** e clique para acessar o serviço.
+Se for sua primeira vez usando o S3, será apresentada uma página de introdução. Caso contrário, você verá a lista dos seus buckets.
 
 ![Passo 2](aws_prints/stp2.png)
 
 ---
 
-## Passo 3 - Criar um Bucket
+## Passo 3 – Criando um Bucket
 
-Clique no botão **Create bucket** para iniciar a criação do bucket.
+No S3, os **buckets** funcionam como diretórios. Vamos criar um novo bucket clicando em **"Create Bucket"**.
 
 ![Passo 3](aws_prints/stp3.png)
 
 ---
 
-## Passo 4 - Configurar Nome e Acesso Público
+## Passo 4 – Configuração do Bucket
 
-Escolha um nome único para o bucket (somente letras minúsculas, `.` e `-` permitidos).  
-Depois, desça até a seção **Block Public Access settings**, desmarque as opções e confirme que entende os riscos.
+Escolha um nome único (em letras minúsculas, pode conter `.` e `-`), e depois desça até a seção **Public Access Settings**. Desmarque a opção de bloquear acessos públicos e aceite o aviso.
 
 ![Passo 4](aws_prints/stp4.png)
 
 ---
 
-## Passo 5 - Finalizar Criação
+## Passo 5 – Finalizando a criação
 
-Clique em **Create bucket** para concluir a criação.
+Role até o final da página e clique em **"Create Bucket"**. Em seguida, clique no nome do bucket que você acabou de criar para acessá-lo.
 
 ![Passo 5](aws_prints/stp5.png)
 
 ---
 
-## Passo 6 - Fazer Upload dos Arquivos
+## Passo 6 – Fazendo Upload dos Arquivos
 
-Clique no nome do bucket criado, depois clique em **Upload**.  
-Envie os arquivos do seu site estático (ex: `index.html`, `style.css`, etc). O `index.html` precisa estar na raiz.
+Clique no botão **Upload**, selecione os arquivos e pastas. Certifique-se de que seu `index.html` esteja na raiz do bucket.
 
 ![Passo 6](aws_prints/stp6.png)
 
 ---
 
-## Passo 7 - Definir Permissões Públicas
+## Passo 7 – Configurar Permissões
 
-Vá na aba **Permissions** do bucket, clique em **Edit** na seção **Bucket policy** e adicione a seguinte política (substitua `nomedoseubucket` pelo nome real do seu bucket):
-
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "PublicReadGetObject",
-      "Effect": "Allow",
-      "Principal": "*",
-      "Action": [
-        "s3:GetObject"
-      ],
-      "Resource": [
-        "arn:aws:s3:::nomedoseubucket/*"
-      ]
-    }
-  ]
-}
-```
-
-Depois, clique em **Save changes**.
+Agora vamos permitir acesso público aos arquivos. Vá até a aba **Permissions** do seu bucket.
 
 ![Passo 7](aws_prints/stp7.png)
 
 ---
 
-## Passo 8 - Ativar Static Website Hosting
+## Passo 8 – Editar Bucket Policy
 
-Na aba **Properties**, role até encontrar a opção **Static website hosting** e clique em **Edit**.
+Clique em **"Edit"** na caixa **Bucket Policy**.
 
-![Passo 8](aws_prints/stp8.png)
-
----
-
-## Passo 9 - Configurar o Hosting
-
-Marque a opção para ativar o hosting, defina a página inicial (ex: `index.html`) e clique em **Save changes**.
-
+![Passo 8](aws_prints/stp8.png)  
 ![Passo 9](aws_prints/stp9.png)
 
----
+Substitua o conteúdo da policy atual pelo seguinte:
 
-## Passo 10 - Acessar seu Site Estático
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::nomedoseubucket/*"
+            ]
+        }
+    ]
+}
+```
 
-Após salvar, uma URL será gerada. Use ela para acessar seu site estático direto do navegador.
+> Lembre-se de substituir `"nomedoseubucket"` pelo nome real do seu bucket.
+
+Clique em **"Save the Changes"**.
 
 ![Passo 10](aws_prints/stp10.png)
 
 ---
 
-Pronto! Seu site estático está publicado no S3! 🚀
+## Passo 9 – Ativar Static Website Hosting
+
+Agora vá até a aba **Properties** do seu bucket.
+
+![Passo 11](aws_prints/stp11.png)
+
+Desça até encontrar **Static Website Hosting** e clique em **Edit**.
+
+![Passo 12](aws_prints/stp12.png)
+
+Configure a opção como a imagem abaixo:
+
+![Passo 13](aws_prints/stp13.png)  
+![Passo 15](aws_prints/stp15.png)
+
+Ative a opção **"Enable"**, informe o nome do seu arquivo de index (ex: `index.html`) e clique em **"Save changes"**.
+
+Você voltará à tela de propriedades, agora com a URL pública do seu site estático visível.
+
+![Passo 16](aws_prints/stp16.png)
+
+---
+
+## 🎉 Pronto!
+
+Seu site estático está **publicado no Amazon S3**! 🚀
+
+![Passo 17](aws_prints/stp17.png)
 
 ---
 
